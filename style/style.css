@@ -11,3 +11,32 @@ a {
 a:hover {
     color: orange;
 }
+
+/*warsztat transition*/
+
+#container-box {
+    display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+}
+
+#box-1:hover {
+    width: 300px;
+    transition: all 2s ease-in 1s;
+}
+
+#box-2:hover {
+    height: 300px;
+    transition: all 2s ease-in 1s;
+}
+
+#box-3:hover {
+    width: 300px;
+    height: 300px;
+    transition: all 2s ease-in 1s;
+}
